@@ -1,0 +1,25 @@
+*{box-sizing: border-box;}
+/*para se comportar e não dar mais bug doido!*/
+
+body{
+    background-color: bisque;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    /*flex-wrap; ajusta e respeita a largura do elementoe e se ajuste ao tamanho do container*/
+}
+.bloco{
+    width: 280px;
+    height: 200px;
+    font-size: 24px;
+    background-color: gray;
+    margin: 20px;
+    
+}
+.bloco:hover{
+    border: 2px solid red;
+   height: 286px;
+   
+}
+
